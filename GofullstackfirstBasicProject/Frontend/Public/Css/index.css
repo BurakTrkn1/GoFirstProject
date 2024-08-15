@@ -1,0 +1,100 @@
+body {
+  background-color: rgba(100, 109, 117, 0.432);
+}
+#Page {
+  background-color: rgba(0, 255, 234, 0.281);
+  height: 174em;
+}
+#img {
+  width: 19.9rem;
+  height: 12rem;
+  border-radius: 10px;
+  position: relative;
+  right: 11px;
+}
+section {
+  background: rgba(36, 33, 33, 0.226);
+  position: relative;
+  top: 20px;
+  bottom: 75rem;
+  transition: 0.8s ease-out;
+}
+
+section h2 {
+  border-bottom: 0.1px solid;
+}
+section h6 {
+  font-weight: 900;
+}
+#nav-link {
+  color: rgba(0, 119, 255, 0.685);
+  font-size: 1em;
+  font-weight: 800;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  -webkit-text-fill-color: rgb(59, 23, 189);
+  background-clip: padding-box;
+}
+#imgOut {
+  width: 20rem;
+  height: 10rem;
+}
+
+#addProductBtn {
+  display: none;
+}
+.indeximg {
+  border-radius: 15px;
+  padding: 5px;
+  height: 500px;
+  object-fit: cover;
+}
+#imgsection {
+  width: 250px;
+}
+.section1 {
+  position: relative;
+  margin: 0 auto;
+  top: 20px;
+  bottom: 75px;
+}
+#section2 {
+  position: relative;
+  top: 75px;
+  bottom: 35px;
+}
+.section3 {
+  position: relative;
+  margin: 0 auto;
+  top: 150px;
+}
+section ul li {
+  list-style-type: none;
+}
+section li::before {
+  content: "\2713";
+}
+span {
+  font-size: 1.75em;
+  font-weight: 900;
+}
+footer {
+  position: relative;
+  top: 15rem;
+  left: -19rem;
+  text-align: center;
+  width: 119em;
+  height: 12em;
+  padding: 3px;
+  background-color: rgba(0, 0, 0, 0.637);
+
+  color: white;
+}
+footer a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 0.95em;
+}
+footer p {
+  position: relative;
+  top: 3em;
+}
